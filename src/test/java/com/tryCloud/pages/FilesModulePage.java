@@ -13,8 +13,9 @@ public class FilesModulePage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy (xpath = "//input[@id='select_all_files']")
+    @FindBy (xpath = "//label[@for='select_all_files']")
     public WebElement selectAllCheckbox;
+
 
     @FindBy (xpath = "//input[@class='selectCheckBox checkbox']")
     public List<WebElement> checkboxes;
