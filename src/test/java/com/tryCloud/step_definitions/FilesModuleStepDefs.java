@@ -13,9 +13,6 @@ import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 
 public class FilesModuleStepDefs {
-
- //   BasePage basePage = new BasePage();
- //   TryCloudLoginPage tryCloudLoginPage = new TryCloudLoginPage();
     FilesModulePage filesModulePage = new FilesModulePage();
     BasePage basePage = new BasePage();
 
