@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: As a user, I should be able to access to Files module
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 8.229 s <<< FAILURE! - in As a user, I should be able to access to Files module
+As a user, I should be able to access to Files module.verify users can access to Files module #1  Time elapsed: 2.389 s  <<< ERROR!
+org.openqa.selenium.InvalidArgumentException: 
+invalid argument
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tonys-MacBook-Pro.local', ip: '2601:14d:4c01:4430:0:0:0:c525%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/nc/x51rw6110y9...}, goog:chromeOptions: {debuggerAddress: localhost:57648}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 75650b95a3fab29d7bf494d591f8f0a7
+
+As a user, I should be able to access to Files module.verify users can access to Files module #2  Time elapsed: 2.262 s  <<< ERROR!
+org.openqa.selenium.InvalidArgumentException: 
+invalid argument
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tonys-MacBook-Pro.local', ip: '2601:14d:4c01:4430:0:0:0:c525%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/nc/x51rw6110y9...}, goog:chromeOptions: {debuggerAddress: localhost:57659}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bcd5d7c2a134334a2eae194d21ff91a3
+
+As a user, I should be able to access to Files module.verify users can access to Files module #3  Time elapsed: 1.751 s  <<< ERROR!
+org.openqa.selenium.InvalidArgumentException: 
+invalid argument
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tonys-MacBook-Pro.local', ip: '2601:14d:4c01:4430:0:0:0:c525%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/nc/x51rw6110y9...}, goog:chromeOptions: {debuggerAddress: localhost:57670}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ffdcb9444e7303b7a02c42f4fe4a88f9
+
+As a user, I should be able to access to Files module.verify users can access to Files module #4  Time elapsed: 1.826 s  <<< ERROR!
+org.openqa.selenium.InvalidArgumentException: 
+invalid argument
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tonys-MacBook-Pro.local', ip: '2601:14d:4c01:4430:0:0:0:c525%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/nc/x51rw6110y9...}, goog:chromeOptions: {debuggerAddress: localhost:57681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f4a22e57e28694f9c733d98467467e9c
+

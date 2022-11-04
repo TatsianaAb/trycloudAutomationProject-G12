@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="As a user, I should be able to access to Files module" time="8.229" tests="4" errors="4" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="/Users/tony/.cache/selenium/chromedriver/mac64/107.0.5304.62/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/target/test-classes:/Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/target/classes:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/tony/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/tony/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/tony/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/tony/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/tony/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/tony/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/tony/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/tony/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/tony/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/tony/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/tony/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.0/webdrivermanager-5.3.0.jar:/Users/tony/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/tony/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar:/Users/tony/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/tony/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/tony/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/tony/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/tony/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/tony/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/tony/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/tony/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/tony/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/tony/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/tony/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/tony/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/tony/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/tony/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/tony/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/tony/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/tony/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/tony/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/tony/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/tony/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/tony/.m2/repository/io/cucumber/cucumber-java/7.3.2/cucumber-java-7.3.2.jar:/Users/tony/.m2/repository/io/cucumber/cucumber-core/7.3.2/cucumber-core-7.3.2.jar:/Users/tony/.m2/repository/io/cucumber/cucumber-gherkin/7.3.2/cucumber-gherkin-7.3.2.jar:/Users/tony/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.3.2/cucumber-gherkin-messages-7.3.2.jar:/Users/tony/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/tony/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/tony/.m2/repository/io/cucumber/cucumber-expressions/15.1.1/cucumber-expressions-15.1.1.jar:/Users/tony/.m2/repository/io/cucumber/datatable/7.3.2/datatable-7.3.2.jar:/Users/tony/.m2/repository/io/cucumber/cucumber-plugin/7.3.2/cucumber-plugin-7.3.2.jar:/Users/tony/.m2/repository/io/cucumber/docstring/7.3.2/docstring-7.3.2.jar:/Users/tony/.m2/repository/io/cucumber/html-formatter/19.1.0/html-formatter-19.1.0.jar:/Users/tony/.m2/repository/io/cucumber/ci-environment/9.0.4/ci-environment-9.0.4.jar:/Users/tony/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/tony/.m2/repository/io/cucumber/cucumber-junit/7.3.2/cucumber-junit-7.3.2.jar:/Users/tony/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/tony/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/tony/.m2/repository/me/jvt/cucumber/reporting-plugin/7.3.0/reporting-plugin-7.3.0.jar:/Users/tony/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/tony/.m2/repository/net/masterthought/cucumber-reporting/5.7.0/cucumber-reporting-5.7.0.jar:/Users/tony/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0.jar:/Users/tony/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.0/jackson-annotations-2.13.0.jar:/Users/tony/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar:/Users/tony/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.0/jackson-datatype-jsr310-2.13.0.jar:/Users/tony/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/tony/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/tony/.m2/repository/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar:/Users/tony/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/tony/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/tony/.m2/repository/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar:/Users/tony/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20211018.2/owasp-java-html-sanitizer-20211018.2.jar:/Users/tony/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/tony/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/tony/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/target/surefire/surefirebooter2653982089564994875.jar /Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/target/surefire 2022-11-03T21-34-30_938-jvmRun1 surefire7740632535412698449tmp surefire_015352917281407516073tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/target/test-classes:/Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/target/classes:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/tony/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/tony/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/tony/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/tony/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/tony/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/tony/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/tony/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/tony/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/tony/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/tony/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/tony/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/tony/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.0/webdrivermanager-5.3.0.jar:/Users/tony/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/tony/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar:/Users/tony/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/tony/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/tony/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/tony/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/tony/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/tony/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/tony/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/tony/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/tony/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/tony/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/tony/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/tony/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/tony/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/tony/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/tony/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/tony/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/tony/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/tony/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/tony/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/tony/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/tony/.m2/repository/io/cucumber/cucumber-java/7.3.2/cucumber-java-7.3.2.jar:/Users/tony/.m2/repository/io/cucumber/cucumber-core/7.3.2/cucumber-core-7.3.2.jar:/Users/tony/.m2/repository/io/cucumber/cucumber-gherkin/7.3.2/cucumber-gherkin-7.3.2.jar:/Users/tony/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.3.2/cucumber-gherkin-messages-7.3.2.jar:/Users/tony/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/tony/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/tony/.m2/repository/io/cucumber/cucumber-expressions/15.1.1/cucumber-expressions-15.1.1.jar:/Users/tony/.m2/repository/io/cucumber/datatable/7.3.2/datatable-7.3.2.jar:/Users/tony/.m2/repository/io/cucumber/cucumber-plugin/7.3.2/cucumber-plugin-7.3.2.jar:/Users/tony/.m2/repository/io/cucumber/docstring/7.3.2/docstring-7.3.2.jar:/Users/tony/.m2/repository/io/cucumber/html-formatter/19.1.0/html-formatter-19.1.0.jar:/Users/tony/.m2/repository/io/cucumber/ci-environment/9.0.4/ci-environment-9.0.4.jar:/Users/tony/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/tony/.m2/repository/io/cucumber/cucumber-junit/7.3.2/cucumber-junit-7.3.2.jar:/Users/tony/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/tony/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/tony/.m2/repository/me/jvt/cucumber/reporting-plugin/7.3.0/reporting-plugin-7.3.0.jar:/Users/tony/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/tony/.m2/repository/net/masterthought/cucumber-reporting/5.7.0/cucumber-reporting-5.7.0.jar:/Users/tony/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0.jar:/Users/tony/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.0/jackson-annotations-2.13.0.jar:/Users/tony/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar:/Users/tony/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.0/jackson-datatype-jsr310-2.13.0.jar:/Users/tony/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/tony/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/tony/.m2/repository/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar:/Users/tony/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/tony/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/tony/.m2/repository/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar:/Users/tony/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20211018.2/owasp-java-html-sanitizer-20211018.2.jar:/Users/tony/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/tony/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/tony/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/tony"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/target/surefire/surefirebooter2653982089564994875.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
+    <property name="user.name" value="tony"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/tony/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/nc/x51rw6110y93m9gzc3kttbyc0000gn/T/"/>
+    <property name="idea.version" value="2022.1.1"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="/Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/tony/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="verify users can access to Files module #1" classname="As a user, I should be able to access to Files module" time="2.389">
+    <error message="invalid argument&#10;  (Session info: chrome=107.0.5304.87)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Tonys-MacBook-Pro.local&apos;, ip: &apos;2601:14d:4c01:4430:0:0:0:c525%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/nc/x51rw6110y9...}, goog:chromeOptions: {debuggerAddress: localhost:57648}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 75650b95a3fab29d7bf494d591f8f0a7" type="org.openqa.selenium.InvalidArgumentException"><![CDATA[org.openqa.selenium.InvalidArgumentException: 
+invalid argument
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tonys-MacBook-Pro.local', ip: '2601:14d:4c01:4430:0:0:0:c525%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/nc/x51rw6110y9...}, goog:chromeOptions: {debuggerAddress: localhost:57648}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 75650b95a3fab29d7bf494d591f8f0a7
+]]></error>
+    <system-out><![CDATA[Nov 03, 2022 9:34:40 PM net.masterthought.cucumber.ReportParser parseJsonFiles
+INFO: File '/var/folders/nc/x51rw6110y93m9gzc3kttbyc0000gn/T/cucumber3551029815198877745.json' contains 1 features
+
+
+@wip
+Scenario Outline: verify users can access to Files module                        &amp#27;[90m# src/test/resources/features/files_module.feature:11&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser uses &amp#27;[0m&amp#27;[31m&amp#27;[1m"User12"&amp#27;[0m&amp#27;[31m and &amp#27;[0m&amp#27;[31m&amp#27;[1m"Userpass123"&amp#27;[0m&amp#27;[31m to log in and on the dashboard page&amp#27;[0m &amp#27;[90m# com.tryCloud.step_definitions.FilesModuleStepDefs.user_uses_and_to_log_in_and_on_the_dashboard_page(java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tonys-MacBook-Pro.local', ip: '2601:14d:4c01:4430:0:0:0:c525%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/nc/x51rw6110y9...}, goog:chromeOptions: {debuggerAddress: localhost:57648}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 75650b95a3fab29d7bf494d591f8f0a7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.tryCloud.step_definitions.FilesModuleStepDefs.user_uses_and_to_log_in_and_on_the_dashboard_page(FilesModuleStepDefs.java:20)
+	at ✽.user uses "User12" and "Userpass123" to log in and on the dashboard page(file:///Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/src/test/resources/features/files_module.feature:6)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Files"&amp#27;[0m&amp#27;[36m module&amp#27;[0m                                        &amp#27;[90m# com.tryCloud.step_definitions.FilesModuleStepDefs.the_user_clicks_the_module(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mverifies the page title is &amp#27;[0m&amp#27;[36m&amp#27;[1m"Files - Trycloud QA"&amp#27;[0m                          &amp#27;[90m# com.tryCloud.step_definitions.FilesModuleStepDefs.verifies_the_page_title_is(java.lang.String)&amp#27;[0m
+
+    Embedding verify users can access to Files module [image/png 29354 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 11022
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 03, 2022 9:34:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verify users can access to Files module #2" classname="As a user, I should be able to access to Files module" time="2.262">
+    <error message="invalid argument&#10;  (Session info: chrome=107.0.5304.87)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Tonys-MacBook-Pro.local&apos;, ip: &apos;2601:14d:4c01:4430:0:0:0:c525%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/nc/x51rw6110y9...}, goog:chromeOptions: {debuggerAddress: localhost:57659}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: bcd5d7c2a134334a2eae194d21ff91a3" type="org.openqa.selenium.InvalidArgumentException"><![CDATA[org.openqa.selenium.InvalidArgumentException: 
+invalid argument
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tonys-MacBook-Pro.local', ip: '2601:14d:4c01:4430:0:0:0:c525%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/nc/x51rw6110y9...}, goog:chromeOptions: {debuggerAddress: localhost:57659}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bcd5d7c2a134334a2eae194d21ff91a3
+]]></error>
+    <system-out><![CDATA[
+@wip
+Scenario Outline: verify users can access to Files module                        &amp#27;[90m# src/test/resources/features/files_module.feature:12&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser uses &amp#27;[0m&amp#27;[31m&amp#27;[1m"User42"&amp#27;[0m&amp#27;[31m and &amp#27;[0m&amp#27;[31m&amp#27;[1m"Userpass123"&amp#27;[0m&amp#27;[31m to log in and on the dashboard page&amp#27;[0m &amp#27;[90m# com.tryCloud.step_definitions.FilesModuleStepDefs.user_uses_and_to_log_in_and_on_the_dashboard_page(java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tonys-MacBook-Pro.local', ip: '2601:14d:4c01:4430:0:0:0:c525%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/nc/x51rw6110y9...}, goog:chromeOptions: {debuggerAddress: localhost:57659}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bcd5d7c2a134334a2eae194d21ff91a3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.tryCloud.step_definitions.FilesModuleStepDefs.user_uses_and_to_log_in_and_on_the_dashboard_page(FilesModuleStepDefs.java:20)
+	at ✽.user uses "User42" and "Userpass123" to log in and on the dashboard page(file:///Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/src/test/resources/features/files_module.feature:6)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Files"&amp#27;[0m&amp#27;[36m module&amp#27;[0m                                        &amp#27;[90m# com.tryCloud.step_definitions.FilesModuleStepDefs.the_user_clicks_the_module(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mverifies the page title is &amp#27;[0m&amp#27;[36m&amp#27;[1m"Files - Trycloud QA"&amp#27;[0m                          &amp#27;[90m# com.tryCloud.step_definitions.FilesModuleStepDefs.verifies_the_page_title_is(java.lang.String)&amp#27;[0m
+
+    Embedding verify users can access to Files module [image/png 29354 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 13449
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 03, 2022 9:34:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verify users can access to Files module #3" classname="As a user, I should be able to access to Files module" time="1.751">
+    <error message="invalid argument&#10;  (Session info: chrome=107.0.5304.87)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Tonys-MacBook-Pro.local&apos;, ip: &apos;2601:14d:4c01:4430:0:0:0:c525%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/nc/x51rw6110y9...}, goog:chromeOptions: {debuggerAddress: localhost:57670}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ffdcb9444e7303b7a02c42f4fe4a88f9" type="org.openqa.selenium.InvalidArgumentException"><![CDATA[org.openqa.selenium.InvalidArgumentException: 
+invalid argument
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tonys-MacBook-Pro.local', ip: '2601:14d:4c01:4430:0:0:0:c525%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/nc/x51rw6110y9...}, goog:chromeOptions: {debuggerAddress: localhost:57670}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ffdcb9444e7303b7a02c42f4fe4a88f9
+]]></error>
+    <system-out><![CDATA[
+@wip
+Scenario Outline: verify users can access to Files module                        &amp#27;[90m# src/test/resources/features/files_module.feature:13&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser uses &amp#27;[0m&amp#27;[31m&amp#27;[1m"User72"&amp#27;[0m&amp#27;[31m and &amp#27;[0m&amp#27;[31m&amp#27;[1m"Userpass123"&amp#27;[0m&amp#27;[31m to log in and on the dashboard page&amp#27;[0m &amp#27;[90m# com.tryCloud.step_definitions.FilesModuleStepDefs.user_uses_and_to_log_in_and_on_the_dashboard_page(java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tonys-MacBook-Pro.local', ip: '2601:14d:4c01:4430:0:0:0:c525%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/nc/x51rw6110y9...}, goog:chromeOptions: {debuggerAddress: localhost:57670}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ffdcb9444e7303b7a02c42f4fe4a88f9
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.tryCloud.step_definitions.FilesModuleStepDefs.user_uses_and_to_log_in_and_on_the_dashboard_page(FilesModuleStepDefs.java:20)
+	at ✽.user uses "User72" and "Userpass123" to log in and on the dashboard page(file:///Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/src/test/resources/features/files_module.feature:6)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Files"&amp#27;[0m&amp#27;[36m module&amp#27;[0m                                        &amp#27;[90m# com.tryCloud.step_definitions.FilesModuleStepDefs.the_user_clicks_the_module(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mverifies the page title is &amp#27;[0m&amp#27;[36m&amp#27;[1m"Files - Trycloud QA"&amp#27;[0m                          &amp#27;[90m# com.tryCloud.step_definitions.FilesModuleStepDefs.verifies_the_page_title_is(java.lang.String)&amp#27;[0m
+
+    Embedding verify users can access to Files module [image/png 29354 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 15410
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 03, 2022 9:34:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verify users can access to Files module #4" classname="As a user, I should be able to access to Files module" time="1.826">
+    <error message="invalid argument&#10;  (Session info: chrome=107.0.5304.87)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Tonys-MacBook-Pro.local&apos;, ip: &apos;2601:14d:4c01:4430:0:0:0:c525%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.5&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/nc/x51rw6110y9...}, goog:chromeOptions: {debuggerAddress: localhost:57681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f4a22e57e28694f9c733d98467467e9c" type="org.openqa.selenium.InvalidArgumentException"><![CDATA[org.openqa.selenium.InvalidArgumentException: 
+invalid argument
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tonys-MacBook-Pro.local', ip: '2601:14d:4c01:4430:0:0:0:c525%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/nc/x51rw6110y9...}, goog:chromeOptions: {debuggerAddress: localhost:57681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f4a22e57e28694f9c733d98467467e9c
+]]></error>
+    <system-out><![CDATA[
+@wip
+Scenario Outline: verify users can access to Files module                         &amp#27;[90m# src/test/resources/features/files_module.feature:14&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser uses &amp#27;[0m&amp#27;[31m&amp#27;[1m"User102"&amp#27;[0m&amp#27;[31m and &amp#27;[0m&amp#27;[31m&amp#27;[1m"Userpass123"&amp#27;[0m&amp#27;[31m to log in and on the dashboard page&amp#27;[0m &amp#27;[90m# com.tryCloud.step_definitions.FilesModuleStepDefs.user_uses_and_to_log_in_and_on_the_dashboard_page(java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tonys-MacBook-Pro.local', ip: '2601:14d:4c01:4430:0:0:0:c525%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/nc/x51rw6110y9...}, goog:chromeOptions: {debuggerAddress: localhost:57681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f4a22e57e28694f9c733d98467467e9c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.tryCloud.step_definitions.FilesModuleStepDefs.user_uses_and_to_log_in_and_on_the_dashboard_page(FilesModuleStepDefs.java:20)
+	at ✽.user uses "User102" and "Userpass123" to log in and on the dashboard page(file:///Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/src/test/resources/features/files_module.feature:6)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Files"&amp#27;[0m&amp#27;[36m module&amp#27;[0m                                         &amp#27;[90m# com.tryCloud.step_definitions.FilesModuleStepDefs.the_user_clicks_the_module(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mverifies the page title is &amp#27;[0m&amp#27;[36m&amp#27;[1m"Files - Trycloud QA"&amp#27;[0m                           &amp#27;[90m# com.tryCloud.step_definitions.FilesModuleStepDefs.verifies_the_page_title_is(java.lang.String)&amp#27;[0m
+
+    Embedding verify users can access to Files module [image/png 29354 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 44829
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 03, 2022 9:34:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

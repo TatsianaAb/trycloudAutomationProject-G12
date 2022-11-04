@@ -1,0 +1,10 @@
+/Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/src/test/java/com/tryCloud/runners/CukesRunner.java
+/Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/src/test/java/com/tryCloud/utilities/Driver.java
+/Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/src/test/java/com/tryCloud/step_definitions/FilesModuleStepDefs.java
+/Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/src/test/java/com/tryCloud/runners/FailedTestRunner.java
+/Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/src/test/java/com/tryCloud/pages/FilesModulePage.java
+/Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/src/test/java/com/tryCloud/utilities/ConfigurationReader.java
+/Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/src/test/java/com/tryCloud/step_definitions/Hooks.java
+/Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/src/test/java/com/tryCloud/pages/TryCloudLoginPage.java
+/Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/src/test/java/com/tryCloud/pages/BasePage.java
+/Users/tony/IdeaProjects/JavaProgramming/trycloudAutomationProject-G12/src/test/java/com/tryCloud/utilities/BrowserUtils.java
