@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/tryCloud/step_definitions",
         dryRun = false, //true --> will give all unimplemented snippets, false --> will run step definitions
-        tags = "",
+        tags = "@wip",
         publish = false
 
 )
