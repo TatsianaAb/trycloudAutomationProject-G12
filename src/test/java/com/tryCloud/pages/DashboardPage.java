@@ -14,4 +14,8 @@ public class DashboardPage extends BasePage {
 
     @FindBy (xpath = "//div[@class='full-name']")
     public List<WebElement> contactFullNames;
+
+    @FindBy (xpath = "//li[@class=\'in-header\']")
+    public List<WebElement> dashboardModules;
+
 }
