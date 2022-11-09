@@ -1,11 +1,14 @@
 com/tryCloud/utilities/BrowserUtils.class
-com/tryCloud/utilities/ConfigurationReader.class
+com/tryCloud/pages/DashboardPage.class
+com/tryCloud/step_definitions/FilesModuleFavoritesButtonStepDefs.class
 com/tryCloud/step_definitions/FilesModuleStepDefs.class
 com/tryCloud/step_definitions/Hooks.class
 com/tryCloud/pages/TryCloudLoginPage.class
-com/tryCloud/utilities/Driver.class
 com/tryCloud/runners/CukesRunner.class
+com/tryCloud/utilities/BrowserUtils$1.class
+com/tryCloud/utilities/ConfigurationReader.class
+com/tryCloud/utilities/Driver.class
+com/tryCloud/step_definitions/ContactsModuleStepDefs.class
 com/tryCloud/runners/FailedTestRunner.class
 com/tryCloud/pages/FilesModulePage.class
 com/tryCloud/pages/BasePage.class
-com/tryCloud/utilities/BrowserUtils$1.class
